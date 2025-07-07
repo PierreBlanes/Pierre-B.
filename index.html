@@ -1,1 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informations Détaillées sur les Ateliers d'Écriture de Chanson</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <!-- Chosen Palette: Warm Harmony -->
+    <!-- Application Structure Plan: J'ai structuré la page en sections thématiques claires, chacune avec un titre et un contenu détaillé. L'objectif est de présenter toutes les informations de manière linéaire mais bien organisée, facilitant la lecture et la compréhension de l'offre complète des ateliers. Les tableaux sont utilisés pour les durées et les tarifs pour une lisibilité maximale. -->
+    <!-- Visualization & Content Choices: 
+        - Titres (h1, h2, h3) -> Goal: Informer et structurer le texte -> Justification: Clarté et hiérarchie de l'information.
+        - Paragraphes (p) -> Goal: Informer et structurer le texte -> Justification: Clarté et hiérarchie de l'information.
+        - Listes à puces (ul) -> Goal: Présenter des points clés de manière concise -> Justification: Facilite la lecture des prérequis, focus, etc.
+        - Tableaux (table) -> Goal: Présenter des données structurées (durées, tarifs) -> Justification: Permet une comparaison rapide et une lecture aisée des chiffres.
+        - Tailwind CSS -> Goal: Assurer un design propre, moderne et responsive -> Justification: Adaptabilité à toutes les tailles d'écran et esthétique professionnelle.
+    -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FDFBF8; /* Warm off-white */
+            color: #4A4A4A;
+            line-height: 1.6;
+        }
+        .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+        .container {
+            max-width: 1000px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        th, td {
+            border: 1px solid #DCD5CD; /* Light border for tables */
+            padding: 0.75rem;
+            text-align: left;
+        }
+        th {
+            background-color: #EFEBE6; /* Light beige for headers */
+            font-weight: 600;
+            color: #6D5D51;
+        }
+        tr:nth-child(even) {
+            background-color: #FDFBF8; /* Alternate row color */
+        }
+    </style>
+</head>
+<body class="antialiased p-4 md:p-8">
+
+    <div class="container mx-auto bg-white rounded-2xl shadow-lg p-6 md:p-10 my-8">
+        <header class="text-center mb-10">
+            <h1 class="text-4xl md:text-5xl font-serif text-[#6D5D51] mb-4">Ateliers d'écriture de chanson : votre parcours créatif</h1>
+            <p class="text-lg text-gray-700 max-w-3xl mx-auto">
+                Bienvenue dans nos ateliers dédiés à l'art de l'écriture de chanson, que ce soit pour le texte ou la musique. Conçus pour tous, du débutant au confirmé, nos programmes offrent un cadre structuré et stimulant pour explorer et développer votre créativité.
+            </p>
+            <p class="text-lg text-gray-700 max-w-3xl mx-auto mt-2">
+                Chaque atelier combine <strong class="text-[#A67B5B]">théorie et pratique</strong> : vous recevrez des apports essentiels sur la forme et la structure d'une chanson, participerez à des exercices pour stimuler votre imagination, disposerez de temps pour la composition, et bénéficierez d'échanges constructifs sur vos créations. Notre méthodologie vise à vous fournir un bagage solide et à dynamiser votre processus créatif.
+            </p>
+        </header>
+
+        <section class="mb-10">
+            <h2 class="text-3xl md:text-4xl font-serif text-[#6D5D51] mb-6">Nos volets d'ateliers</h2>
+            <div class="space-y-6 text-gray-700">
+                <div>
+                    <h3 class="text-2xl font-semibold text-[#A67B5B] mb-2">Ateliers d'écriture de chansons (Texte)</h3>
+                    <ul class="list-disc list-inside ml-4 space-y-2">
+                        <li><strong class="font-medium">Accessibilité :</strong> Ouverts à tous, <strong class="text-[#6D5D51]">aucun prérequis n'est nécessaire</strong>.</li>
+                        <li><strong class="font-medium">Focus :</strong> Ces ateliers se concentrent sur l'art de la rédaction textuelle. Nous vous guiderons dans la construction de paroles percutantes et l'expression de vos idées avec justesse et originalité.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-[#A67B5B] mb-2">Ateliers d'écriture de chansons (Musique)</h3>
+                    <ul class="list-disc list-inside ml-4 space-y-2">
+                        <li><strong class="font-medium">Prérequis :</strong> Destinés à ceux qui possèdent un <strong class="text-[#6D5D51]">niveau musical minimum (savoir jouer d'un instrument)</strong>.</li>
+                        <li><strong class="font-medium">Focus :</strong> Ces séances sont dédiées à la composition musicale. Elles vous permettront d'associer des mélodies à vos textes et d'esquisser un accompagnement instrumental, enrichissant ainsi votre création de chanson. Un échange préalable sera nécessaire pour évaluer la faisabilité de l'atelier en fonction de votre niveau musical.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-10">
+            <h2 class="text-3xl md:text-4xl font-serif text-[#6D5D51] mb-6">Adaptation et modalités de participation</h2>
+            <div class="space-y-4 text-gray-700">
+                <p>Nos ateliers sont conçus pour s'adapter à vos besoins spécifiques. Les participants sont répartis en trois catégories d'âge pour une pédagogie optimale :</p>
+                <ul class="list-disc list-inside ml-4 space-y-1">
+                    <li><strong class="font-medium">Enfants</strong> (7-11 ans)</li>
+                    <li><strong class="font-medium">Adolescents</strong> (12-17 ans)</li>
+                    <li><strong class="font-medium">Adultes</strong> (18 ans et plus)</li>
+                </ul>
+                <p>Les modalités spécifiques de chaque atelier s'adapteront toujours au format choisi (groupe ou individuel) et à la catégorie d'âge des participants, garantissant une expérience d'apprentissage personnalisée et efficace.</p>
+                <p><strong class="font-medium text-[#A67B5B]">Flexibilité des ateliers :</strong> Nos sessions peuvent se dérouler <strong class="text-[#6D5D51]">en présentiel ou à distance</strong>. Lors de votre prise de contact, nous échangerons ensemble sur vos besoins et vos préférences afin de définir le module le plus adapté pour vous (durée de la session, format groupe ou individuel, à distance ou en présentiel, et lieux possibles).</p>
+            </div>
+        </section>
+
+        <section class="mb-10">
+            <h2 class="text-3xl md:text-4xl font-serif text-[#6D5D51] mb-6">Votre parcours : cours découverte et progression</h2>
+            <div class="space-y-4 text-gray-700">
+                <p>Pour toute première participation à un atelier d'écriture de texte ou de composition musicale (que ce soit en groupe ou en individuel), la première séance sera un <strong class="text-[#A67B5B]">cours découverte</strong>. Cette session initiale est essentielle pour poser les bases de votre apprentissage :</p>
+                <ul class="list-disc list-inside ml-4 space-y-2">
+                    <li><strong class="font-medium">Exploration des fondamentaux :</strong> Une grande partie de la séance sera consacrée à la découverte de l'écriture de texte ou de la composition pour chanson. Nous aborderons les bases théoriques essentielles et échangerons sur votre rapport personnel à l'écriture et à la composition musicale. L'objectif est de poser des bases solides et de favoriser le dialogue autour du format choisi.</li>
+                    <li><strong class="font-medium">Premiers exercices pratiques :</strong> Des exercices d'écriture ou de composition seront menés pour stimuler votre créativité et vous familiariser avec les techniques abordées.</li>
+                    <li><strong class="font-medium">Création et retours :</strong> En fin de séance, une courte session d'écriture de votre propre texte ou de composition sera réalisée, suivie de retours collectifs constructifs.</li>
+                </ul>
+                <p><strong class="font-medium text-[#6D5D51]">Important :</strong> Un cours découverte effectué pour l'écriture de texte ne vaut pas pour la composition musicale, et inversement. Si vous souhaitez explorer les deux volets, un cours découverte distinct sera nécessaire pour chaque domaine.</p>
+                <p>Une fois ce cours découverte réalisé, les séances suivantes seront principalement centrées sur l'écriture des textes ou des compositions musicales pour chanson des participants. La continuité théorique sera assurée, mais de manière moins dense, afin de laisser davantage de place à la pratique créative et aux échanges collectifs.</p>
+            </div>
+        </section>
+
+        <section class="mb-10">
+            <h2 class="text-3xl md:text-4xl font-serif text-[#6D5D51] mb-6">Durée de nos sessions</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-2xl font-semibold text-[#A67B5B] mb-4">Ateliers (format groupe)</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Type d'Atelier</th>
+                                <th>Durée</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Atelier Texte</td>
+                                <td>2h30</td>
+                            </tr>
+                            <tr>
+                                <td>Atelier Composition</td>
+                                <td>2h30</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-[#A67B5B] mb-4">Cours particuliers (format individuel)</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Type de Cours Particulier</th>
+                                <th>Durée</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cours Particulier Texte</td>
+                                <td>1h00 ou 2h00</td>
+                            </tr>
+                            <tr>
+                                <td>Cours Particulier Composition</td>
+                                <td>1h00 ou 2h00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-10">
+            <h2 class="text-3xl md:text-4xl font-serif text-[#6D5D51] mb-6">Tarifs unitaires de nos sessions</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-2xl font-semibold text-[#A67B5B] mb-4">Atelier texte</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Public</th>
+                                <th>Format Groupe (2h30)</th>
+                                <th>Format Individuel (1h00)</th>
+                                <th>Format Individuel (2h00)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Adultes</td>
+                                <td>25 €/adulte</td>
+                                <td>45 €/adulte</td>
+                                <td>60 €/adulte</td>
+                            </tr>
+                            <tr>
+                                <td>Adolescents</td>
+                                <td>25 €/adolescent</td>
+                                <td>45 €/adolescent</td>
+                                <td>60 €/adolescent</td>
+                            </tr>
+                            <tr>
+                                <td>Enfants</td>
+                                <td>20 €/enfant</td>
+                                <td>40 €/enfant</td>
+                                <td>50 €/enfant</td>
+                            </tr>
+                            <tr>
+                                <td>Étudiants</td>
+                                <td>20 €/étudiant</td>
+                                <td>40 €/étudiant</td>
+                                <td>50 €/étudiant</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-[#A67B5B] mb-4">Atelier composition</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Public</th>
+                                <th>Format Groupe (2h30)</th>
+                                <th>Format Individuel (1h00)</th>
+                                <th>Format Individuel (2h00)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Adultes</td>
+                                <td>30 €/adulte</td>
+                                <td>50 €/adulte</td>
+                                <td>70 €/adulte</td>
+                            </tr>
+                            <tr>
+                                <td>Adolescents</td>
+                                <td>30 €/adolescent</td>
+                                <td>50 €/adolescent</td>
+                                <td>70 €/adolescent</td>
+                            </tr>
+                            <tr>
+                                <td>Enfants</td>
+                                <td>25 €/enfant</td>
+                                <td>45 €/enfant</td>
+                                <td>60 €/enfant</td>
+                            </tr>
+                            <tr>
+                                <td>Étudiants</td>
+                                <td>25 €/étudiant</td>
+                                <td>45 €/étudiant</td>
+                                <td>60 €/étudiant</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-10">
+            <h2 class="text-3xl md:text-4xl font-serif text-[#6D5D51] mb-6">Modules et cycles</h2>
+            <div class="space-y-4 text-gray-700">
+                <p><strong class="font-medium">Sessions uniques :</strong> Vous avez la possibilité de vous inscrire à une seule séance pour découvrir l’expérience. Si vous le souhaitez, vous pourrez vous réinscrire aux sessions suivantes. La première session pour tout nouveau participant sera un cours découverte.</p>
+                <p><strong class="font-medium">Cycles :</strong> Pour un suivi approfondi et un travail continu, nous vous proposons des cycles de 2, 3 à 4 ateliers ou cours particuliers. Votre place sera réservée pour toute la durée du cycle.</p>
+                <p>Nous sommes également ouverts à l'élaboration de modules thématiques sur plusieurs séances ou à l'organisation de résidences d’écriture intensives sur plusieurs jours. La durée et la fréquence de ces formats plus spécifiques seront définies conjointement avec vous.</p>
+            </div>
+        </section>
+
+        <p class="text-center text-red-600 font-bold text-xl mt-8 mb-4">
+            À noter : L’inscription à un atelier ou un cours particulier en cycle ou unitaire est ferme et non remboursable.
+        </p>
+
+        <p class="text-center text-gray-700 text-lg mt-8">
+            Vous pouvez demander un service par mail à <span class="text-blue-600">pierreb.musik@gmail.com</span> sur les informations au début de la page ou en faisant une proposition. N’hésitez pas à poser vos questions !
+        </p>
+
+    </div>
+
+</body>
+</html>
 
